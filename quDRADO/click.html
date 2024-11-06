@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar/Ocultar Frase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #frase {
+            margin-top: 20px;
+            font-size: 20px;
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mostrar/Ocultar Frase</h1>
+    
+    <button id="btn-toggle">Mostrar</button>
+    
+    <div id="frase">Eu juro por deus que eu n aguento mais</div>
+
+    <script>
+        
+        let visivel = false;
+
+       
+        const fraseElemento = document.getElementById('frase');
+        const btnToggle = document.getElementById('btn-toggle');
+
+        
+        function alternarVisibilidade() {
+            if (visivel) {
+                
+                fraseElemento.style.display = 'none';
+                btnToggle.innerText = 'Mostrar'; 
+            } else {
+                
+                fraseElemento.style.display = 'block';
+                btnToggle.innerText = 'Ocultar';
+            }
+           
+            visivel = !visivel;
+        }
+
+        
+        btnToggle.addEventListener('click', alternarVisibilidade);
+    </script>
+
+</body>
+</html> -->
